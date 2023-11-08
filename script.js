@@ -12,6 +12,9 @@ const characterComponent = (characterData) => `
     <img src=${characterData.image}>
     <h2>${characterData.name}</h2>
     <h3>appears in: ${characterData.episode.length} episodes</h3>
+    <h4>${characterData.species}</h4>
+    <h4>origin: ${characterData.origin.name}</h4>
+    <h4>status: ${characterData.status}</h4>
   </div>
 `
 
